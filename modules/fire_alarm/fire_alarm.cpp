@@ -101,14 +101,6 @@ static void fireAlarmActivationUpdate()
         strobeLightStateWrite(ON);
     }
 
-    gasDetectorState = !gasSensorRead();
-
-    if ( gasDetectorState ) {
-        gasDetected = ON;
-        sirenStateWrite(ON);
-        strobeLightStateWrite(ON);
-    }
-    
     if( alarmTestButton ) {             
         overTemperatureDetected = ON;
         gasDetected = ON;
