@@ -5,7 +5,7 @@
 
 //=====[Declaration of public defines]=========================================
 
-#define CODE_NUMBER_OF_KEYS   4
+#define CODE_NUMBER_OF_KEYS   5
 
 //=====[Declaration of public data types]======================================
 
