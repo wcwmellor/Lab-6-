@@ -115,3 +115,8 @@ static void eventLogElementStateUpdate( bool lastState,
         eventLogWrite( currentState, elementName );       
     }
 }
+
+    if ( lastState != currentState ) {        
+        eventLogWrite( currentState, elementName );       
+    }
+}
