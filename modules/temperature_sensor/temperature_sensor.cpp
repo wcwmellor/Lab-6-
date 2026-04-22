@@ -84,3 +84,4 @@ static float analogReadingScaledWithTheLM35Formula( float analogReading )
 {
     return ( analogReading * 3.3 / 0.01 );
 }
+
