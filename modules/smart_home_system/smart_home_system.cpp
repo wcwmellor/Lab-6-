@@ -43,3 +43,4 @@ void smartHomeSystemUpdate()
 }
 
 //=====[Implementations of private functions]==================================
+
